@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { BsFillBagCheckFill } from "react-icons/bs";
 
 function Card({ img, title, star, reviews, prevPrice, newPrice }) {
-  const [addedToCart, setAddedToCart] = useState(false);
+  // const [addedToCart, setAddedToCart] = useState(false);
 
-  const handleAddToCart = () => {
-    setAddedToCart(true);
-  };
+  // const handleAddToCart = () => {
+  //   setAddedToCart(true);
+  // };
   return (
     <>
       <section className="card">
@@ -26,11 +26,11 @@ function Card({ img, title, star, reviews, prevPrice, newPrice }) {
               <BsFillBagCheckFill />
             </div>
           </section>
-          <footer>
+          {/* <footer>
             <button className="card-footer" onClick={handleAddToCart}>
               {addedToCart ? "Added to Cart" : "Add to Cart"}
             </button>
-          </footer>
+          </footer> */}
         </div>
       </section>
     </>

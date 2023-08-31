@@ -56,7 +56,7 @@
   color: rgb(83, 81, 81);
 }
 
-.card-footer {
+/* .card-footer {
   width: 150px;
   margin-top: 15px;
   margin-left: 2rem;
@@ -64,7 +64,7 @@
   background-color: #007bff;
   color: #fff;
   border-color: #0578f3;
-}
+} */
 
 /* Media query for tablets */
 /* @media (max-width: 1024px) {

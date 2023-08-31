@@ -19,7 +19,7 @@
 
 .label-container input {
   position: absolute;
-  left: 0;
+  left: 0 !important;
   opacity: 0;
   cursor: pointer;
 }
@@ -45,6 +45,7 @@
 .checkmark::after {
   content: "";
   position: absolute;
+  left: 0;
   display: none;
 }
 .label-container input:checked ~ .checkmark::after {

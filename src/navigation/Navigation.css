@@ -13,17 +13,10 @@ input {
   border: none;
   background: rgb(246, 245, 245);
   outline: none;
-  margin-right: 16rem;
+  margin-right: 14rem;
   border-radius: 5px;
   position: relative;
-  width: 27rem;
-}
-
-.nav-icons {
-  margin: 10px;
-  color: rgb(76, 75, 75);
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 23rem;
 }
 
 /* Media query for tablets */
@@ -35,7 +28,7 @@ input {
 
   input {
     margin-right: 10px;
-    width: 80%;
+    width: 20rem;
   }
 }
 
@@ -50,8 +43,8 @@ input {
 
   input {
     position: relative;
-    width: 100%;
-    margin-left: 40vh;
+    width: 80%;
+    margin-left: 15rem;
     padding-right: 10px;
   }
 }
